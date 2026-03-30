@@ -1,15 +1,48 @@
 {
   "name": "es2021",
   "version": "1.0.0",
-  "description": "",
+  "description": "A comprehensive demonstration of ECMAScript 2021 (ES12) features with practical, runnable code examples including numeric separators, String.replaceAll(), logical assignment operators, Promise.any(), private class methods, WeakRef, and FinalizationRegistry.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/es2021.git"
+  },
+  "keywords": [
+    "javascript",
+    "es2021",
+    "es12",
+    "ecmascript",
+    "ecmascript-2021",
+    "nodejs",
+    "examples",
+    "tutorial",
+    "numeric-separators",
+    "replaceall",
+    "logical-assignment",
+    "promise-any",
+    "private-methods",
+    "weakref",
+    "finalization-registry",
+    "javascript-features",
+    "modern-javascript"
+  ],
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "contributors": [
+    {
+      "name": "Or Assayag",
+      "email": "orassayag@gmail.com",
+      "url": "https://github.com/orassayag"
+    }
+  ],
+  "license": "MIT",
   "dependencies": {
     "node": "16.13.1"
+  },
+  "engines": {
+    "node": ">=16.13.1"
   }
 }
